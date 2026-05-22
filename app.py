@@ -29,7 +29,7 @@ with col1:
     if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"): # Button 1
         st.switch_page("pages/app1_discount_calc.py")
 with col2:
-    if st.button("🧼 การทำความสะอาดข้อมูล"): # Button 4
+    if st.button("🧼 การทำความสะอาดข้อมูล"): # Button 2
         st.switch_page("pages/clean_app.py")
 with col3:
     if st.button("⚰️ การทำความสะอาดข้อมูล"): # Button 3
