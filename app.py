@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 st.title("💀 หน้าหลักแห่งสุสาน 🕯️")
-st.write("### Boot Camp: Data Science and Machine Learning แห่งโลกหลังความตาย 👻")
+st.write("### 👻 Boot Camp: Data Science and Machine Learning 👻")
 st.markdown('### 💀 :coffin: 🐦‍⬛ ยมทูตแห่งข้อมูลมาแล้ว! 🪓 ✝️')
 # For Grim Reaper or Tombstone images, you would use st.image(image_url)
 # Example (uncomment and replace with actual URLs):
