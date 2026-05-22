@@ -11,12 +11,12 @@ st.set_page_config(
 col_left, col_center, col_right = st.columns([1, 2, 1])
 
 #with col_center:
-    st.title("💀 หน้าหลักแห่งสุสาน 🕯️")
+st.title("💀 หน้าหลักแห่งสุสาน 🕯️")
 
 st.write("### 👻 Boot Camp: Data Science and Machine Learning 👻")
 
 #with col_center:
-    st.markdown('### 💀 :coffin: 🐦‍⬛ ยมทูตแห่งข้อมูลมาแล้ว! 🪓 ✝️')
+st.markdown('### 💀 :coffin: 🐦‍⬛ ยมทูตแห่งข้อมูลมาแล้ว! 🪓 ✝️')
 # For Grim Reaper or Tombstone images, you would use st.image(image_url)
 # Example (uncomment and replace with actual URLs):
 # st.image("https://example.com/grim_reaper.png", width=200)
