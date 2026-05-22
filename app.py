@@ -27,8 +27,8 @@ elif st.button("⚰️ การทำความสะอาดข้อมู
     st.switch_page("pages/graveyard_cleaner_nuch.py")
 elif st.button("🧼 การทำความสะอาดข้อมูล"):
     st.switch_page("pages/clean_app.py")
-elif st.button("✨ การทำความสะอาดข้อมูลของอือ "):
-    st.switch_page("pages/enhanced_clean_อือ.py")
+"""elif st.button("✨ การทำความสะอาดข้อมูลของอือ "):
+    st.switch_page("pages/enhanced_clean_อือ.py")"""
 
 
 
