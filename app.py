@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 
 st.set_page_config(
@@ -12,9 +11,9 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    /* Target Streamlit's main content area if needed for broader centering, 
+    /* Target Streamlit's main content area if needed for broader centering,
        but st.columns below is usually more robust for block-level centering. */
-    /* .css-1d391kg.e16z1uVg1 { 
+    /* .css-1d391kg.e16z1uVg1 {
         display: flex;
         flex-direction: column;
         align-items: center;
