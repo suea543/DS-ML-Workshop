@@ -22,13 +22,13 @@ st.info("☠️ 7 วันแห่งการฝึกฝนอย่าง�
 if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"):
     st.switch_page("pages/app1_discount_calc.py")
 elif st.button("🖤 การทำความสะอาดข้อมูลของอืออ"):
-    st.switch_page("dark_clean_อืออ")
+    st.switch_page("pages/dark_clean_อืออ.py")
 elif st.button("⚰️ การทำความสะอาดข้อมูลของ nuch"):
-    st.switch_page("graveyard_cleaner_nuch")
+    st.switch_page("pages/graveyard_cleaner_nuch.py")
 elif st.button("🧼 การทำความสะอาดข้อมูล"):
-    st.switch_page("clean_app")
+    st.switch_page("pages/clean_app.py")
 elif st.button("✨ การทำความสะอาดข้อมูลของอือ "):
-    st.switch_page("enhanced_clean_อือ")
+    st.switch_page("pages/enhanced_clean_อือ.py")
 
 
 
