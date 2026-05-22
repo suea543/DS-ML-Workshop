@@ -10,13 +10,10 @@ st.set_page_config(
 # Centering the title and subtitle
 col_left, col_center, col_right = st.columns([1, 2, 1])
 
-#with col_center:
-st.title("💀 Boot Camp 🕯️")
-
-st.write("### 👻 Data Science and Machine Learning 👻")
-
-#with col_center:
-st.markdown('### 💀 :coffin: 🐦‍⬛ 🪓 ✝️')
+with col_center:
+    st.title("💀 Boot Camp 🕯️")
+    st.write("### 👻 Data Science and Machine Learning 👻")
+    st.markdown('### 💀 :coffin: 🐦‍⬛ 🪓 ✝️')
 # For Grim Reaper or Tombstone images, you would use st.image(image_url)
 # Example (uncomment and replace with actual URLs):
 # st.image("https://example.com/grim_reaper.png", width=200)
