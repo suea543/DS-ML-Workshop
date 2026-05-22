@@ -25,18 +25,18 @@ st.info("☠️ 7 Day Intensive Hands-on Workshop 🔪")
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-    if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ (จากโลกคนเป็น) "):
+    if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"):
         st.switch_page("pages/app1_discount_calc")
 with col2:
-    if st.button("🖤 การทำความสะอาดข้อมูลของอืออ (ธีมดาร์ก)"):
+    if st.button("🖤 การทำความสะอาดข้อมูล"):
         st.switch_page("pages/dark_clean_อืออ")
 with col3:
-    if st.button("⚰️ การทำความสะอาดข้อมูลของ nuch (ธีมสุสาน) "):
+    if st.button("⚰️ การทำความสะอาดข้อมูล"):
         st.switch_page("pages/graveyard_cleaner_nuch")
 with col4:
-    if st.button("🧼 การทำความสะอาดข้อมูล (เวอร์ชันมาตรฐาน) "):
+    if st.button("🧼 การทำความสะอาดข้อมูล "):
         st.switch_page("pages/clean_app")
 with col5:
-    if st.button("✨ การทำความสะอาดข้อมูลของอือ (เวอร์ชันปรับปรุง) "):
+    if st.button("✨ การทำความสะอาดข้อมูลของอือ"):
         st.switch_page("pages/enhanced_clean_อือ")
         st.switch_page("enhanced_clean_อือ")
