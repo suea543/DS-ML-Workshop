@@ -18,16 +18,17 @@ st.markdown('### 💀 :coffin: 🐦‍⬛ ยมทูตแห่งข้อ�
 st.info("☠️ 7 วันแห่งการฝึกฝนอย่างเข้มข้นสู่การชำระล้างข้อมูล 🔪")
 
 # --- Navigation Buttons (Theme-adjusted text) ---
-if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ (จากโลกคนเป็น) "):
-    st.switch_page("page/app1_discount_calc.py")
+# --- Navigation Buttons (Theme-adjusted text) ---
+if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"):
+    st.switch_page("app1_discount_calc")
 elif st.button("🖤 การทำความสะอาดข้อมูลของอืออ"):
-    st.switch_page("dark_clean_อืออ.py")
+    st.switch_page("dark_clean_อืออ")
 elif st.button("⚰️ การทำความสะอาดข้อมูลของ nuch"):
-    st.switch_page("graveyard_cleaner_nuch.py")
-elif st.button("🧼 การทำความสะอาดข้อมูลของ clean_app"):
-    st.switch_page("clean_app.py")
-elif st.button("✨ การทำความสะอาดข้อมูลของอือ"):
-    st.switch_page("enhanced_clean_อือ.py")
+    st.switch_page("graveyard_cleaner_nuch")
+elif st.button("🧼 การทำความสะอาดข้อมูล"):
+    st.switch_page("clean_app")
+elif st.button("✨ การทำความสะอาดข้อมูลของอือ "):
+    st.switch_page("enhanced_clean_อือ")
 
 
 
