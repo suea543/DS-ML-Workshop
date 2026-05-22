@@ -28,15 +28,15 @@ col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"):
         st.switch_page("pages/app1_discount_calc.py")
-with col2:
-    if st.button("🖤 การทำความสะอาดข้อมูล"):
-        st.switch_page("pages/dark_clean_อืออ.py")
+#with col2:
+ #   if st.button("🖤 การทำความสะอาดข้อมูล"):
+  #      st.switch_page("pages/dark_clean_อืออ.py")
 with col3:
     if st.button("⚰️ การทำความสะอาดข้อมูล"):
         st.switch_page("pages/graveyard_cleaner_nuch.py")
-with col4:
-    if st.button("🧼 การทำความสะอาดข้อมูล "):
-        st.switch_page("pages/clean_app.py")
+#with col4:
+ #   if st.button("🧼 การทำความสะอาดข้อมูล "):
+  #      st.switch_page("pages/clean_app.py")
 #with col5:
     #if st.button("✨ การทำความสะอาดข้อมูลข"):
       #  st.switch_page("pages/enhanced_clean_อือ.py")
