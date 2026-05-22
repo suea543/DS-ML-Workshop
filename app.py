@@ -20,7 +20,7 @@ st.info("☠️ 7 วันแห่งการฝึกฝนอย่าง�
 # --- Navigation Buttons (Theme-adjusted text) ---
 # --- Navigation Buttons (Theme-adjusted text) ---
 if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"):
-    st.switch_page("app1_discount_calc")
+    st.switch_page("packages/app1_discount_calc.py")
 elif st.button("🖤 การทำความสะอาดข้อมูลของอืออ"):
     st.switch_page("dark_clean_อืออ")
 elif st.button("⚰️ การทำความสะอาดข้อมูลของ nuch"):
