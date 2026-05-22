@@ -48,21 +48,18 @@ if uploaded_file is not None: # ถ้ามีการอัปโหลดไ
             fig, axes = plt.subplots(n_rows, n_cols, figsize=(18, 5 * n_rows)) # สร้าง figure และ axes สำหรับกราฟ
             axes = axes.flatten() if n_rows > 1 or n_cols > 1 else [axes] # จัดการให้ axes เป็น array 1 มิติเสมอ
             for i, col in enumerate(numeric_cols): # วนลูปในแต่ละคอลัมน์ตัวเลข
-                sns.histplot(data[col].dropna(), kde=True, ax=axes[i], color='darkred', edgecolor='darkgray') # สร้าง Histogram พร้อม KDE ด้วยสีธีม
-                axes[i].set_title(f'Distribution of {col}', fontsize=14, color='white') # ตั้งชื่อกราฟ
-                axes[i].set_xlabel(col, fontsize=12, color='darkgray') # ตั้งชื่อแกน X
-                axes[i].set_ylabel('Frequency', fontsize=12, color='darkgray') # ตั้งชื่อแกน Y
-                axes[i].tick_params(axis='x', colors='darkgray') # สีแกน X
-                axes[i].tick_params(axis='y', colors='darkgray') # สีแกน Y
-                axes[i].set_facecolor('#303030') # Dark background for plots
+                sns.histplot(data[col].dropna(), kde=True, ax=axes[i], color='skyblue') # สร้าง Histogram พร้อม KDE
+                axes[i].set_title(f'Distribution of {col}', fontsize=14) # ตั้งชื่อกราฟ
+                axes[i].set_xlabel(col, fontsize=12) # ตั้งชื่อแกน X
+                axes[i].set_ylabel('Frequency', fontsize=12) # ตั้งชื่อแกน Y
             for j in range(i + 1, len(axes)): # ลบแกนว่างที่เหลือออก
                 fig.delaxes(axes[j])
-            fig.patch.set_facecolor('#1E1E1E') # Dark background for the figure itself
             plt.tight_layout() # ปรับระยะห่างระหว่าง subplots
             st.pyplot(fig) # แสดงกราฟใน Streamlit
             plt.close(fig) # ปิด figure เพื่อป้องกันปัญหาการแสดงผล
         else:
             st.info("ไม่พบคอลัมน์ตัวเลขสำหรับการแสดงการกระจายตัว 💀")
+
 
         return data
 
