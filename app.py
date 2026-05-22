@@ -13,8 +13,8 @@ col_left, col_center, col_right = st.columns([1, 2, 1])
 with col_center:
     st.title("💀 Boot Camp 🕯️")
     
-#st.write("### 👻 Data Science and Machine Learning 👻")
-st.markdown('### 💀 :coffin: 🐦‍⬛ 🪓 ✝️')
+st.write("### 👻 Data Science and Machine Learning 👻")
+#st.markdown('### 💀 :coffin: 🐦‍⬛ 🪓 ✝️')
 # For Grim Reaper or Tombstone images, you would use st.image(image_url)
 # Example (uncomment and replace with actual URLs):
 # st.image("https://example.com/grim_reaper.png", width=200)
@@ -37,6 +37,6 @@ with col3:
 with col4:
     if st.button("🧼 การทำความสะอาดข้อมูล "):
         st.switch_page("pages/clean_app.py")
-with col5:
-    if st.button("✨ การทำความสะอาดข้อมูลของอือ"):
-        st.switch_page("pages/enhanced_clean_อือ.py")
+#with col5:
+    #if st.button("✨ การทำความสะอาดข้อมูลข"):
+      #  st.switch_page("pages/enhanced_clean_อือ.py")
