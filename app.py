@@ -23,7 +23,7 @@ st.write("### 👻 Data Science and Machine Learning 👻")
 st.info("☠️🐦‍⬛🪓 7 Day Intensive Hands-on Workshop 💀✝️🔪")
 
 # --- Navigation Buttons (Theme-adjusted text) ---
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
     if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"): # Button 1
