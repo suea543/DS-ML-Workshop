@@ -34,3 +34,6 @@ with col2:
 with col3:
     if st.button("⚰️ การทำความสะอาดข้อมูล"): # Button 3
         st.switch_page("pages/graveyard_cleaner_nuch.py")
+with col4:
+    if st.button("🪓 การทำแปลงข้อมูล"): # Button 4
+        st.switch_page("pages/transform_app.py")
