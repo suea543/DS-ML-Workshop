@@ -38,5 +38,5 @@ with col4:
     if st.button("🪓 การทำแปลงข้อมูล"): # Button 4
         st.switch_page("pages/transform_app.py")
 with col5:
-    if st.button("🐦‍⬛EDA สำหรับข้อมูลยอดขาย"): # Button 5
+    if st.button("🐦‍⬛การวิเคราะห์ข้อมูลเชิงสำรวจ"): # Button 5
         st.switch_page("pages/EDA_app.py")       
