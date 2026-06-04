@@ -24,8 +24,8 @@ st.info("☠️🐦‍⬛🪓 7 Day Intensive Hands-on Workshop 💀✝️🔪")
 
 # --- Navigation Buttons (Theme-adjusted text) ---
 col1, col2, col3 = st.columns(3)
-col4, col5, col6 = st.columns(3)
-col7 = st.columns(1)
+col4, col5, col6, col7 = st.columns(4)
+#col7 = st.columns(1)
 with col1:
     if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"): # Button 1
         st.switch_page("pages/app1_discount_calc.py")
