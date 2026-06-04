@@ -23,7 +23,7 @@ st.write("### 👻 Data Science and Machine Learning 👻")
 st.info("☠️🐦‍⬛🪓 7 Day Intensive Hands-on Workshop 💀✝️🔪")
 
 # --- Navigation Buttons (Theme-adjusted text) ---
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3, col4, col5,col6 = st.columns(6)
 
 with col1:
     if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"): # Button 1
@@ -39,4 +39,7 @@ with col4:
         st.switch_page("pages/transform_app.py")
 with col5:
     if st.button("🐦‍⬛การวิเคราะห์ข้อมูลเชิงสำรวจ"): # Button 5
-        st.switch_page("pages/EDA_app.py")       
+        st.switch_page("pages/EDA_app.py")   
+with col6:
+    if st.button("🕯️การพยากรณ์"): # Button 6
+        st.switch_page("pages/sale_predict.py")    
