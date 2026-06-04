@@ -25,6 +25,7 @@ st.info("☠️🐦‍⬛🪓 7 Day Intensive Hands-on Workshop 💀✝️🔪")
 # --- Navigation Buttons (Theme-adjusted text) ---
 col1, col2, col3 = st.columns(3)
 col4, col5, col6 = st.columns(3)
+col7 = st.columns(3)
 with col1:
     if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"): # Button 1
         st.switch_page("pages/app1_discount_calc.py")
@@ -38,8 +39,11 @@ with col4:
     if st.button("🪓 การทำแปลงข้อมูล"): # Button 4
         st.switch_page("pages/transform_app.py")
 with col5:
-    if st.button("🐦‍⬛การวิเคราะห์ข้อมูลเชิงสำรวจ"): # Button 5
+    if st.button("💀การวิเคราะห์ข้อมูลเชิงสำรวจ"): # Button 5
         st.switch_page("pages/EDA_app.py")   
 with col6:
     if st.button("🕯️การพยากรณ์ยอดขายแบบง่าย"): # Button 6
         st.switch_page("pages/sale_predict.py")    
+with col7:
+    if st.button("🐦‍⬛การพยากรณ์ระยะเวลาการให้บริการขนส่ง"): # Button 7
+        st.switch_page("pages/truck_predict.py") 
