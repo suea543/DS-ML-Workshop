@@ -41,5 +41,5 @@ with col5:
     if st.button("🐦‍⬛การวิเคราะห์ข้อมูลเชิงสำรวจ"): # Button 5
         st.switch_page("pages/EDA_app.py")   
 with col6:
-    if st.button("🕯️การพยากรณ์"): # Button 6
+    if st.button("🕯️การพยากรณ์ยอดขายแบบง่าย"): # Button 6
         st.switch_page("pages/sale_predict.py")    
