@@ -23,8 +23,8 @@ st.write("### 👻 Data Science and Machine Learning 👻")
 st.info("☠️🐦‍⬛🪓 7 Day Intensive Hands-on Workshop 💀✝️🔪")
 
 # --- Navigation Buttons (Theme-adjusted text) ---
-col1, col2, col3 = st.columns(3)
-col4, col5, col6, col7 = st.columns(4)
+col1, col2, col3, col4 = st.columns(4)
+col5, col6, col7, col8 = st.columns(4)
 #col7 = st.columns(1)
 with col1:
     if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"): # Button 1
@@ -47,4 +47,6 @@ with col6:
 with col7:
     if st.button("🐦‍⬛การพยากรณ์ระยะเวลาการให้บริการขนส่ง"): # Button 7
         st.switch_page("pages/truck_predict.py") 
-
+with col8:
+    if st.button("✝️จำแนกประเภทข้อมูลยอดขาย"): # Button 8
+        st.switch_page("pages/classify_redbull_sale.py") 
