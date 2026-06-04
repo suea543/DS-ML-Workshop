@@ -43,7 +43,8 @@ with col5:
         st.switch_page("pages/EDA_app.py")   
 with col6:
     if st.button("🕯️การพยากรณ์ยอดขายแบบง่าย"): # Button 6
-        st.switch_page("pages/sale_predict.py")    
+        st.switch_page("pages/sale_predict.py") 
 with col7:
     if st.button("🐦‍⬛การพยากรณ์ระยะเวลาการให้บริการขนส่ง"): # Button 7
         st.switch_page("pages/truck_predict.py") 
+
