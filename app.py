@@ -11,7 +11,7 @@ st.set_page_config(
 col_left, col_center, col_right = st.columns([1, 2, 1])
 
 with col_center:
-    st.title("💀 Boot Camp 🕯️")
+    st.title("🐾 Boot Camp 🕯️")
     
 st.write("### 👻 Data Science and Machine Learning 👻")
 #st.markdown('### 💀 :coffin: 🐦‍⬛ 🪓 ✝️')
